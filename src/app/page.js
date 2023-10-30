@@ -1,6 +1,12 @@
+"use client"
 import Image from 'next/image'
 
 export default function Home() {
+
+  const handleSubscribeClick = () => {
+    window.location.href = "https://forms.gle/7mrEoRnGdGdv5DdU7";
+  };
+
   return (
     <div className="bg-orange-100 min-h-screen flex flex-col items-center justify-center">
       <div className="max-w-4xl p-4 bg-white rounded-lg shadow-md">
@@ -21,16 +27,10 @@ export default function Home() {
           <p className="text-gray-600 mb-4">
           "Join our waitlist today to become one of the pioneers in breaking down language barriers on the internet, creating a more connected and inclusive online world."
           </p>
-          <a
-            href="https://forms.gle/7mrEoRnGdGdv5DdU7"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <button className="bg-orange-500 hover:bg-orange-600 text-white font-semibold py-2 px-6 rounded-full focus:outline-none focus:ring focus:border-orange-300">
-            Early Access
-          </button>
-          </a>
           
+            <button onClick={handleSubscribeClick} className="bg-orange-500 hover:bg-orange-600 text-white font-semibold py-2 px-6 rounded-full focus:outline-none focus:ring focus:border-orange-300">
+            Early Access
+          </button>          
         </div>
       </div>
     </div>
