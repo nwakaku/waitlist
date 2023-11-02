@@ -14,7 +14,7 @@ export default function Home() {
           <iframe
             width="560"
             height="315"
-            src="https://www.youtube.com/embed/g0xFq6vEYVg"
+            src="https://www.youtube.com/embed/g0xFq6vEYVg?&autoplay=1"
             title="Selman(ext) product review"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -25,7 +25,7 @@ export default function Home() {
         <div className="text-center">
           {/* <h1 className="text-black text-2xl md:text-3xl lg:text-4xl font-semibold mb-4">Welcome to Our Waitlist</h1> */}
           <p className="text-gray-600 mb-4">
-          "Join our waitlist today to become one of the pioneers in breaking down language barriers on the internet, creating a more connected and inclusive online world."
+          "Unveiling our masterpiece: an AI-powered browser extension and video player that transcends linguistic boundaries. Witness as it magically transforms any video into a universal treasure, offering real-time translations that preserve the authentic voice of the speaker. With seamless cross-platform compatibility and the power to eradicate the need for multiple video versions, this groundbreaking creation unlocks the true essence of content accessibility, join our quest, brings the world closer beyond Language 🌟"
           </p>
           
             <button onClick={handleSubscribeClick} className="bg-orange-500 hover:bg-orange-600 text-white font-semibold py-2 px-6 rounded-full focus:outline-none focus:ring focus:border-orange-300">
