@@ -14,7 +14,7 @@ export default function Home() {
           <iframe
             width="560"
             height="315"
-            src="https://youtu.be/gESc_lJPPhw"
+            src="https://www.youtube.com/embed/gESc_lJPPhw"
             title="Selman(ext) product review"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
