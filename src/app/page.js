@@ -12,13 +12,12 @@ export default function Home() {
       <div className="max-w-4xl p-4 bg-white rounded-lg shadow-md">
         <div className="mb-6">
           <iframe
-            width="560"
-            height="315"
-            src="https://www.youtube.com/embed/g0xFq6vEYVg?&autoplay=1"
-            title="Selman(ext) product review"
-            frameBorder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowFullScreen
+           width="1430" 
+           height="536" 
+           src="https://www.youtube.com/embed/gESc_lJPPhw?&autoplay=1" 
+           title="SelmanAi" 
+           frameborder="0" 
+           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen
             className="w-full h-64 md:h-96 lg:h-[400px] xl:h-[500px]"
           ></iframe>
         </div>
@@ -27,12 +26,15 @@ export default function Home() {
           <p className="text-gray-600 mb-4">
           "Unveiling our masterpiece: an AI-powered browser extension and video player that transcends linguistic boundaries. Witness as it magically transforms any video into a universal treasure, offering real-time translations that preserve the authentic voice of the speaker. With seamless cross-platform compatibility and the power to eradicate the need for multiple video versions, this groundbreaking creation unlocks the true essence of content accessibility, join our quest, brings the world closer beyond Language 🌟"
           </p>
-          
-            <button onClick={handleSubscribeClick} className="bg-orange-500 hover:bg-orange-600 text-white font-semibold py-2 px-6 rounded-full focus:outline-none focus:ring focus:border-orange-300">
+
+          <button
+            onClick={handleSubscribeClick}
+            className="bg-orange-500 hover:bg-orange-600 text-white font-semibold py-2 px-6 rounded-full focus:outline-none focus:ring focus:border-orange-300"
+          >
             Early Access
-          </button>          
+          </button>
         </div>
       </div>
     </div>
-  )
+  );
 }
